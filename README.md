@@ -19,6 +19,10 @@ The demo project class diagram is listed below:
 
 ![class_diagram.png](doc/class_diagram.png) 
 
+You can download the project and use the commond to run the test.
+```sh
+mvn test
+```
 I wrote two test class: AlgorithmTest & AlgorithmTest2. If I run AlgorithmTest2, all things go well with Spring autowired context. If I run AlgorithmTest, the com.zhaodong8701.mockitoDemo.AlgorithmTest#test2 will fail with message "simpleAlgorithm.algorithmCommon should not be null."
 
 It seems Mockito does not handle the multiple levels mock injections. This behavior is different with Spring context autowired. Please HELP!
