@@ -9,7 +9,9 @@ In my project unit test, I need to test the various components managed under spr
 ```java
 MockitoAnnotations.initMocks(this);
 ```
-I am not sure whether this is a bug or an unspoorted feature for Mockito. So I create this demo project to better illustrate this problem.
+I am not sure whether this is a bug or an unspoorted feature for Mockito. So I create this demo project to better illustrate this problem. I found a link on Stackoverflow which is quite similar to my problem,
+
+http://stackoverflow.com/questions/6300439/multiple-levels-of-mock-and-injectmocks
 
 Project Structure
 --
